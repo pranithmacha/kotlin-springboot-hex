@@ -1,0 +1,9 @@
+spring:
+  name: demo-app
+
+database:
+  postgres:
+    host: ${DB_HOST}
+    database: ${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
